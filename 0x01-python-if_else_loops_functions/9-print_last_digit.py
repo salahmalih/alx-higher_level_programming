@@ -7,5 +7,5 @@ def print_last_digit(number):
         lastnumber = (number % -10) * -1
     else:
         lastnumber = number % 10
-    print("{}".format(lastnumber),end="")
+    print("{}".format(lastnumber), end="")
     return lastnumber
